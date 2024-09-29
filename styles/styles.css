@@ -2,13 +2,14 @@ nav {
     background-color : steelblue;
     padding: 10px; 
 }
+
 main {
     max-width: 840px;
-    }
+}
 
 aside {
-    width:20rem;
-    margin:1rem;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid rgba(0,0,0,.2);
     padding: 1rem;
     background-color:#eee;
@@ -16,7 +17,7 @@ aside {
     text-align: center;
 }
 aside img {
-    width:200px;
+    width: 200px;
     height: auto;
 }
 
@@ -25,7 +26,9 @@ main img {
     height: auto;
 }
 
-p { padding: 0;}
+p { 
+    padding: 0;
+}
 
 footer {
     margin-top: 15px;
