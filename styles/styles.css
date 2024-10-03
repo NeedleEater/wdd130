@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --color-white: #fff;
     --color-black: #000;
@@ -35,11 +41,11 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    /* margin: 1rem;
     border: 1px solid rgba(0,0,0,.2);
     padding: 1rem;
     background-color:var(--color-white);
-    color: var(--color-black);
+    color: var(--color-black); */
     text-align: center;
 }
 
@@ -48,9 +54,18 @@ aside img {
     height: auto;
 }
 
+/* /* I cannot seem to get this code to work */
+/* aside h2 {    
+    position: absolute;
+    top: 47px;
+    left: 150px;
+} */
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
+    margin: 0 0 1rem 1rem;
 }
 
 p { 
@@ -61,4 +76,15 @@ footer {
     margin-top: 15px;
     border-top: 1px solid var(--color-black);
     text-align: center;
+}
+
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: grey);
+    color: var(--color-black);
 }
