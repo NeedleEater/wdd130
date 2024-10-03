@@ -85,6 +85,6 @@ footer {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    background-color: grey);
+    background-color: grey;
     color: var(--color-black);
 }
