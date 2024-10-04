@@ -50,7 +50,8 @@ aside img {
 }
 aside h2 {
     color: white;
-    position: center;
+    position: absolute;
+    top: 59%;
 }
 
 main img {
