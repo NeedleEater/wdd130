@@ -41,11 +41,6 @@ main {
 
 aside {
     width: 20rem;
-    /* margin: 1rem;
-    border: 1px solid rgba(0,0,0,.2);
-    padding: 1rem;
-    background-color:var(--color-white);
-    color: var(--color-black); */
     text-align: center;
 }
 
@@ -53,13 +48,10 @@ aside img {
     width: 200px;
     height: auto;
 }
-
-/* /* I cannot seem to get this code to work */
-/* aside h2 {    
-    position: absolute;
-    top: 47px;
-    left: 150px;
-} */
+aside h2 {
+    color: white;
+    position: center;
+}
 
 main img {
     float: right;
