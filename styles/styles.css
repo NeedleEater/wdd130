@@ -42,6 +42,7 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -51,7 +52,6 @@ aside img {
 aside h2 {
     color: white;
     position: absolute;
-    top: 59%;
 }
 
 main img {
