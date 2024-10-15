@@ -14,10 +14,20 @@
 
 header {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: auto 1fr auto;
     justify-items: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    background-color: rgba(74, 30, 30, 0.577);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 header nav a {
@@ -130,7 +140,7 @@ img[alt="Company Logo"] {
     align-items: center;
     text-align: center;
     justify-items: center;
-    background-color: var(--accent-color);
+    background-color: rgba(74, 30, 30, 0.577);
     border: 1px solid var(--primary-color);
     padding: 0 5px 5px 5px;
     margin: 10px;
@@ -156,7 +166,7 @@ img[alt="Company Logo"] {
     gap: 3px;
     align-items: center;
     text-align: center;
-    background-color: var(--accent-color);
+    background-color: rgba(74, 30, 30, 0.577);
     border: 1px solid var(--primary-color);
     padding: 0 5px 5px 5px;
     margin: 10px;
@@ -178,6 +188,6 @@ footer {
     align-items: center;
     max-width: 1000px;
     padding: 15px;
-    background-color: var(--accent-color);
+    background-color: rgba(74, 30, 30, 0.577);
 
 }
