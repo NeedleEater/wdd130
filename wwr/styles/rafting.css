@@ -106,8 +106,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 25%;
-    left: 35%;
+    top: 5%;
+    left: 20%;
     color: var(--secondary-color);
     background-color: rgba(74, 30, 30, 0.577);
 }
