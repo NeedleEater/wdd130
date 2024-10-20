@@ -250,3 +250,8 @@ button {
     border: none;
     border-radius: 10px;
 }
+
+form {
+    display: grid;
+    align-items: center;
+}
