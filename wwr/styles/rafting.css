@@ -123,6 +123,11 @@ button {
     box-shadow: 0 0 30px rgba(9, 5, 5, 0.577);
 }
 
+.contact-intro {
+    text-align: center;
+    font-size: 2em; /* h2 font size */
+}
+
 img {
     width: 100%;
     height: auto;
@@ -172,6 +177,23 @@ img[alt="Company Logo"] {
     margin: 10px;
 }
 
+#company-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#company-info div {
+    flex: 1;
+}
+
+#company-info iframe {
+    flex: 1;
+    max-width: 600px;
+    height: 400px;
+    border: 0;
+}
+
 .adventure h2 {
     grid-column: 1/-1;
     font-weight: 400;
@@ -180,6 +202,23 @@ img[alt="Company Logo"] {
 .adventure img{
     width: 100%;
     height: auto;
+}
+
+#leadership-team {
+    text-align: center;
+}
+
+#leadership-team .employee-profile {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+#leadership-team .employee-profile img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
@@ -200,4 +239,14 @@ footer .footer-text {
 footer .footer-icons {
     display: flex;
     justify-content: flex-end;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(175, 21, 29);
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    border: none;
+    border-radius: 10px;
 }

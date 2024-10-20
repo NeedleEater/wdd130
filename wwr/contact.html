@@ -24,12 +24,82 @@
             </ul>
         </nav>
     </header>
-    <main>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quae labore atque delectus praesentium, modi, accusantium ea quasi quisquam non temporibus deserunt cupiditate repellat, corporis nisi quia eum sint. Voluptates.</p>
+    <main class="contact-intro">
+    <p>Get in touch with Miraculous Water Adventures. Contact us for inquiries, feedback, or reservations today.</p>
+    </main>
+       <section id="company-info">
+           <div>
+               <h2>Company Information</h2>
+               <p><strong>Address:</strong> 1234 Main St, Anytown, USA</p>
+               <p><strong>Phone:</strong> (123) 456-7890</p>
+               <p><strong>Email:</strong> info@company.com</p>
+           </div>
+           <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153167!3d-37.81627927975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1f9c8f3e0b!2s1234%20Main%20St%2C%20Anytown%2C%20USA!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus"
+               width="600"
+               height="400"
+               style="border:0;"
+               allowfullscreen=""
+               loading="lazy"
+           ></iframe>
+       </section>
+    <section id="leadership-team">
+        <h2>Our Leadership Team</h2>
+        <div class="employee-profile">
+            <img src="images/contact us material/male-employee.webp" alt="Employee 1">
+            <p><strong>Stan Beaubottom</strong></p>
+            <p>River Guide</p>
+        </div>
+        <div class="employee-profile">
+            <img src="images/contact us material/female2-employee.webp" alt="Employee 2">
+            <p><strong>Grace Under-fire</strong></p>
+            <p>CEO/River Guide</p>
+        </div>
+        <div class="employee-profile">
+            <img src="images/contact us material/female-employee.webp" alt="Employee 3">
+            <p><strong>Emily Johnson</strong></p>
+            <p>Marketing/Events</p>
+        </div>
+    </section>
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <fieldset>
+                <legend>Purpose of Message:</legend>
+                <label>
+                    <input type="radio" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+            </fieldset>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <label>
+                <input type="checkbox" name="subscribe">
+                Please subscribe me to the monthly newsletter
+            </label>
+            
+            <button type="submit">Send My Message!</button>
+        </form>
+    </section>
     </main>
     <footer>
         <div class="footer-text">
-        <p>&copy; 2024 | Spencer Lowe</p>
+        <p>&copy; 2024 | Spencer Lowe | <a href="https://app.moqups.com/TYqOwIKsMrAiGF7JS4JuJ8TET02J1mrk/view/page/ad12de680?ui=0&fit_width=1" target="_blank">Wireframe</a></p>
         </div>
         <div class="footer-icons">
             <a href="https://www.facebook.com" target="_blank" class="no-underline">
