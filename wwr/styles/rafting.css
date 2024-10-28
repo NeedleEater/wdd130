@@ -281,7 +281,7 @@ button {
 
 .trip-table {
     padding: 20px;
-    background-color: var(---color);
+    background-color: var(--background-color);
     border:1px solid var(--primary-color);
     border-radius: 5px;
 }
